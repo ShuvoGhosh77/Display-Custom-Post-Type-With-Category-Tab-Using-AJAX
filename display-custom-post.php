@@ -356,7 +356,7 @@ function save_case_study_meta($post_id)
 }
 add_action('save_post', 'save_case_study_meta');
 
-// show data 
+// show data with category
 function cps_case_study_shortcode()
 {
     ob_start();
